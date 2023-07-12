@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Javascript</title>
+  <!-- <script>
+    console.log('Welcome this is my first Javascript code')
+  </script> -->
+  <!-- <script src='./script.js'></script> -->
+  <!-- External JavaScript file (head tag defer):
+  C'est idéal pour charger le fichier JS après que le HTML sera chargé-->
+  <!-- <script src="./script.js" defer></script> -->
+
+  <!-- External JavaScript file (head tag async):
+  Mon JS s'exécutera dès qu'il est chargé mais sans bloquer
+les autres éléments de la page-->
+  <!-- <script src="./script.js" async></script> -->
+</head>
+<body>
+  <h1>My first Javascript code</h1>
+  <button onclick="console.log('Bouton cliqué !')">Click me bro</button>
+
+  <!--JS in url -->
+  <a href="javascript:console.log('Lien cliqué')">This a link</a>
+  <!-- Mon JS s'exécutera à la fin du HTML-->
+  <script src="./script.js"></script>
+</body>
+</html>
